@@ -10,3 +10,5 @@
 <code>TOKEN</code> 处填入自己的 <code>botToken</code> ，可以去 [@BotFather](https://t.me/BotFather) 处获取
 
 <code>ADMIN</code> 处填入自己的 <code>userid</code> ，可以去 [@userinfobot](https://t.me/userinfobot) 处获取
+
+Bot 演示 : [@Misaka0_bot](https://t.me/Misaka0_bot) ，因为没托管到服务器上所以大概率不在线╰(￣ω￣ｏ)
