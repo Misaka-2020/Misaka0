@@ -38,10 +38,11 @@ def cut(update, context):
         msg.reply_text('不要乱按喵')
 
 def clear(update, context):
-    global connect, userid
+    global connect, userid, count
     msg = update.message
     user = msg.from_user.id
     if str(user) == ADMIN:
+        count = 0
         userid = ""
         record_user()
         connect = ""
