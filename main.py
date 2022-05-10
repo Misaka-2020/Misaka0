@@ -131,7 +131,7 @@ def chat(update, context):
             userid = connect
             record_user()
         else:
-            if count == 0:
+            if count <= 1:
                 msg.reply_text('其他用户正在会话中，请稍等')
                 bot.forward_message(
                             chat_id=ADMIN,
